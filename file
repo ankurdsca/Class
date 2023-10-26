@@ -1,0 +1,119 @@
+#Oct - 16
+# Slicing Operation
+
+x = 'Honesty is the best policy'
+# print(len(x))
+
+i = -2
+
+# print(x[0:20:1])
+#
+# print(x[26:0:-1])
+# # or
+# print(x[::-1])
+#
+# print(x[5:])
+
+nl = "\n"
+for i in range(0,len(x)):
+
+    if x[i]==" ":
+        print("")
+    else:
+        print(x[i],end="")
+print("")
+print(nl)
+
+# OR
+for i in x:
+    if i ==" ":
+        print("")
+    else:
+        print(i,end="")
+#
+# "break"
+print (nl)
+
+# PRACTICE QUESTIONS
+
+#1. Declare two variables, 'x' and 'y', and assign tem integer values.
+   Swap the vales
+x = 10
+y = 20
+
+print ("Before swapping")
+print ("x=",x,"y=",y)
+x = x+y
+y = x-y
+x = x-y 
+
+print ()
+print ("After swapping")
+print ("x=",x,"y=",y)
+
+#2 Area of a rectangle
+
+a = int(input("a = "))
+b = int(input("b = "))
+area = a*b
+print ("Area = ",area)
+
+#3 Convert Temp from Celsius to Fahrenheit
+
+cel = int(input("Temperature in Celsius = "))
+
+fah = (cel*9/5) + 32
+print ("Fahrenheit = ",fah)
+
+
+
+
+
+1. Write a Python program to print the numbers from 1 to 10 using a for loop.
+for i in range(0,10):
+    print(i+1,end=" ")
+
+
+2. Create a program that calculates the sum of all numbers in a list using a for loop.
+l = [2,4,5,6,7]
+for i in l
+  print(l[i])
+
+3. Write a program to print the characters of a string in reverse order using a for loop.
+i. 
+a = "Honesy is the best policy"
+for i in a:
+  print(i)
+
+
+
+4. Develop a program that finds the factorial of a given number using a for loop.
+
+5. Create a program to print the multiplication table of a given number using a for loop.
+
+6. Write a program that counts the number of even and odd numbers in a list using a for loop.
+
+7. Develop a program that prints the squares of numbers from 1 to 5 using a for loop.
+
+8. Create a program to find the length of a string without using the len() function.
+
+9. Write a program that calculates the average of a list of numbers using a for loop.
+
+10. Develop a program that prints the first n Fibonacci numbers using a for loop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
