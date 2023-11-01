@@ -1,8 +1,8 @@
 #Functions
 
 def add():
-    a = input(int"A= ")
-    b = input(int"B= ")
+    a = int(input"A= ")
+    b = int(input"B= ")
 
 print(a+b)
 
